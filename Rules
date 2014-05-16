@@ -1,0 +1,16 @@
+
+If humidity is normal, then 
+	If windy is true, then 
+		If outlook is sunny, then class is p.
+		If outlook is overcast, then 
+			If temperature is cool, then class is n.
+		If outlook is rain, then class is temperature.
+	If windy is false, then class is p.
+If humidity is high, then 
+	If outlook is sunny, then class is n.
+	If outlook is overcast, then 
+		If windy is true, then class is p.
+		If windy is false, then class is temperature.
+	If outlook is rain, then 
+		If windy is true, then class is n.
+		If windy is false, then class is p.
